@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title>Data</title>
+	</head>
+	<body>
+		<h2>Data</h2>
+		<table border='1'>
+			<colgroup>
+				<col width='60'>
+					<col width='200'>
+						<col width='100'>
+            
+			</colgroup>
+			<thead>
+				<tr>
+					<th>lineNum</th>
+					<th>tempState</th>
+					<th>hmiState</th>
+					<th>groundState</th>
+					<th>date</th>
+				</tr>
+			</thead>
+			<tbody>
+				<% for(i = 0; i < list.length; i++) { %>
+				<tr>
+					<td>
+						<%=list[i].lineNum %>
+					</td>
+					<td>
+						<%=list[i].tempState %>
+					</td>
+					<td>
+						<%=list[i].hmiState %>
+					</td>
+					<td>
+						<%=list[i].groundState %>
+					</td>
+					<td>
+						<%=list[i].date %>
+					</td>
+				</tr>
+				<% } %>
+			</tbody>
+		</table boader='1'>
+
+	</body>
+</html>

@@ -1,0 +1,10 @@
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\bin\Debug\DesignServer.exe.config
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\bin\Debug\DesignServer.exe
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\bin\Debug\DesignServer.pdb
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.csprojAssemblyReference.cache
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.Form1.resources
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.Properties.Resources.resources
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.csproj.GenerateResource.cache
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.csproj.CoreCompileInputs.cache
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.exe
+C:\Users\ntek0255\Desktop\설계안\Design\DesignServer\obj\Debug\DesignServer.pdb

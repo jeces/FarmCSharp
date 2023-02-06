@@ -1,0 +1,21 @@
+<html>
+	<head><title> title </title> </head>
+	<body>
+
+<?php
+mysql_connect("localhost", "mysql_user", "mysql_password") or
+    die("Could not connect: " . mysql_error());
+mysql_select_db("mydb");
+
+$result = mysql_query("SELECT id, name FROM mytable");
+
+// 각줄에서 id를 통해서 값을 가져올 수도 있다. 
+while ($row = mysql_fetch_array($result, MYSQL_ASSOC)) {
+    printf("ID: %s  Name: %s", $row["id"], $row["name"]);
+}
+
+mysql_free_result($result);
+?>
+
+</body>
+</html>

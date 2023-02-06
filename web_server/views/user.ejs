@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title>Customer</title>
+    </head>
+    <body>
+        <h2>Customer</h2>
+        <table border='1'>
+            <colgroup>
+                <col width='60'><col width='200'><col width='100'>
+            </colgroup>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Phone</th>
+                    <th>E-mail</th>
+                    <th>Approval</th>
+                </tr>
+            </thead>
+            <tbody>
+                <% for(i = 0; i < list.length; i++) { %>
+                <tr>
+                    <td><%=list[i].rootId %></td>
+                    <td><%=list[i].name %></td>
+                    <td><%=list[i].phone %></td>
+                    <td><%=list[i].email %></td>
+                    <td><%=list[i].approval %></td>
+                </tr>
+                <% } %>
+            </tbody>
+        </table boader='1'>
+        
+    </body>
+</html>
